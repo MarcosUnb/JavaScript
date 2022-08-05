@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="pokedex.css">
+
+    <style type="text/css">
+        .linha1{
+            text-align: center;
+            color: red;
+        }
+        .linha2{
+            color: blue;
+        }
+        .linha3{
+            color:darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pokedex Virtual</h1> 
+    </header>
+
+    <section id="sec1">
+        <div>Bem vindo a sua Pokedex</div><br>
+    </section><br>
+    <section id="sec2">
+        <div id="menu">Escolha seu Pokemon inicial<br>
+        <p class="linha1">Charmander<input type="button" value="Escolher" onclick="escolher(0)"><br></p>  
+        <p class="linha3">Bulbassauro<input type="button" value="Escolher" onclick="escolher(1)"><br></p> 
+        <p class="linha2">Squirtle<input type="button" value="Escolher" onclick="escolher(2)"></p>  
+        </div>
+
+        <div id="visor"></div>
+    </section>
+
+    <footer>@Marcos Gabriel</footer>
+
+    <script src="pokedex.js"></script>
+
+</body>
+</html>
